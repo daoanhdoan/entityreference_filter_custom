@@ -1,0 +1,6 @@
+name: Entity Reference Filter - Custom
+type: module
+core_version_requirement: ^9
+dependencies:
+ - drupal:entityreference_filter
+ - drupal:views
