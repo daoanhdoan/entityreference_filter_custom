@@ -1,9 +1,13 @@
 {
-  "name": "daoanhdoan/entityreference_filter_custom",
-  "description": "Entity Reference Filter - Custom",
-  "type": "drupal-custom-module",
-  "license":"GPL-2.0",
-  "extra": {
-    "installer-name": "entityreference_filter_custom"
-  }
+    "name" : "daoanhdoan/entityreference_filter_custom",
+    "description": "Entity Reference Filter - Custom",
+    "type" : "drupal-custom-module",
+    "license": "GPL-2.0",
+    "extra": {
+        "installer-name": "entityreference_filter_custom"
+    },
+    "require": {
+        "drupal/entityreference_filter": "*",
+        "drupal/views": "*"
+    }
 }
