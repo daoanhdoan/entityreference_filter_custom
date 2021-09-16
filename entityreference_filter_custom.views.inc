@@ -6,10 +6,7 @@
  */
 
 use Drupal\Core\Entity\ContentEntityTypeInterface;
-use Drupal\Core\Entity\EntityFieldManager;
-use Drupal\Core\Field\FieldConfigInterface;
 use Drupal\Core\Field\FieldDefinitionInterface;
-use Drupal\field\Entity\FieldStorageConfig;
 
 /**
  * Implements hook_views_data_alter().
