@@ -89,7 +89,7 @@ function entityreference_filter_custom_views_data_alter(array &$data) {
 
         $filter['filter']['id'] = 'entityreference_filter_view_result';
         // @todo do we need it ?
-        $filter['filter']['proxy'] = $field_info['filter']['handler'] ?: NULL;
+        $filter['filter']['proxy'] = !empty($field_info['filter']['handler']) ? $field_info['filter']['handler'] : NULL;
 
         $filter['filter']['field'] = $field_name;
         $filter['filter']['filter_base_table'] = $base_table;
